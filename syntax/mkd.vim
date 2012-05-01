@@ -86,6 +86,10 @@ syn match  htmlH1       /^.\+\n=\+$/ contains=@Spell
 syn match  htmlH2       /^.\+\n-\+$/ contains=@Spell
 
 
+syn sync fromstart
+
+
+
 "highlighting for Markdown groups
 HtmlHiLink mkdString	    String
 HtmlHiLink mkdCode          String
