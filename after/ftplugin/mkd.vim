@@ -35,14 +35,14 @@ func! Foldexpr_markdown(lnum)
     endif
 endfunc
 
-setlocal foldexpr=Foldexpr_markdown(v:lnum)
-setlocal foldmethod=expr
+" setlocal foldexpr=Foldexpr_markdown(v:lnum)
+" setlocal foldmethod=expr
 
 "---------- everything after this is optional -----------------------
 " change the following fold options to your liking
 " see ':help fold-options' for more
-setlocal foldenable
-setlocal foldlevel=0
-setlocal foldcolumn=0
-set foldmethod=expr
-set foldopen-=search
+" setlocal foldenable
+" setlocal foldlevel=0
+" setlocal foldcolumn=0
+" set foldmethod=expr
+" set foldopen-=search
